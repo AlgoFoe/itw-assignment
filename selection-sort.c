@@ -1,8 +1,8 @@
 #include <stdio.h>
-void swap(int *a, int *b) {
-  int temp = *a;
-  *a = *b;
-  *b = temp;
+void swap(int *x, int *y) {
+  int temp = *x;
+  *x=*y;
+  *y=temp;
 }
 
 void selectionSort(int array[], int size) {
@@ -13,6 +13,7 @@ void selectionSort(int array[], int size) {
         min_idx = i;
     }
     swap(&array[min_idx], &array[step]);
+
   }
 }
 
