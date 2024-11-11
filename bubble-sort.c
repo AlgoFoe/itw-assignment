@@ -26,10 +26,10 @@ void printArray(int array[], int size) {
 int main() {
   int data[] = {-2, 45, 0, 11, -9};
   
-  int size = sizeof(data) / sizeof(data[0]);
+  int size = sizeof(data)/sizeof(data[0]);
 
   bubbleSort(data, size);
   
-  printf("Sorted Array in Ascending Order:\n");
+  printf("Sorted Array (Ascending Order):\n");
   printArray(data, size);
 }
