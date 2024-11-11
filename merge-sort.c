@@ -53,7 +53,7 @@ void mergeSort(int arr[], int l, int r) {
   }
 }
 
-void printArray(int arr[], int size) {
+void display(int arr[], int size) {
   for (int i = 0; i < size; i++)
     printf("%d ", arr[i]);
   printf("\n");
@@ -65,6 +65,6 @@ int main() {
 
   mergeSort(arr, 0, size - 1);
 
-  printf("Sorted array: \n");
-  printArray(arr, size);
+  printf("Sorted array (ascending order): \n");
+  display(arr, size);
 }
