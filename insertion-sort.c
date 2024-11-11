@@ -24,6 +24,6 @@ int main() {
   int data[] = {9, 5, 1, 4, 3};
   int size = sizeof(data) / sizeof(data[0]);
   insertionSort(data, size);
-  printf("Sorted array in ascending order:\n");
+  printf("Sorted array (ascending order) :\n");
   printArray(data, size);
 }
