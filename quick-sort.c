@@ -40,13 +40,12 @@ void printArray(int array[], int size) {
 
 int main() {
   int data[] = {8, 7, 2, 1, 0, 9, 6};
-  
   int n = sizeof(data) / sizeof(data[0]);
   
-  printf("Unsorted Array\n");
+  printf("Unsorted Array : \n");
   printArray(data, n);
   quickSort(data, 0, n - 1);
   
-  printf("Sorted array in ascending order: \n");
+  printf("Sorted array (ascending order) : \n");
   printArray(data, n);
 }
